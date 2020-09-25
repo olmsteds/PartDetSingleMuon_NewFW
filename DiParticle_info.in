@@ -5,14 +5,14 @@
 DiscrByDeltaR  true
 DeltaRCut      0.3
 
-DiscrByOSLSType  LS	#### OS or LS
+DiscrByOSLSType  OS	#### OS or LS
 
 DiscrByCosDphi	 false			# dPhi is calculated between Tau1 and Tau2 
 CosDphiCut 	 -1.00   -0.80
 
 DiscrByMassReco  false
 HowCalculateMassReco  VectorSumofVisProductsAndMet       ###VectorSumOfVisProductsAndMet   or    CollinearApprox 
-MassCut          150.0   9999.9
+MassCut          120.0   9999.9
 
 DiscrByCDFzeta2D          false
 PZetaCutCoefficient       1.0

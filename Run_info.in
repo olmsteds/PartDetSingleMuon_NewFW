@@ -42,8 +42,8 @@ GenDilepMassRange 80.0 100.0
 
 /// ------ Triggers ----- ///
 
-Trigger1FirstRequirement HLT_DoubleMediumChargedIsoPFTau
-Trigger1SecondRequirement HLT_DoubleMediumChargedIsoPFTau
+Trigger1FirstRequirement HLT_IsoMu24
+Trigger1SecondRequirement HLT_IsoMu24
 UseTriggerWildcard true
 
 /// Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg
@@ -58,7 +58,7 @@ TreatMuonsAsTaus 0
 ///-----MET cuts------///
 ApplyMetFilters true
 MT2Mass 0.
-DiscrByMet false
+DiscrByMet true
 MetCut 30.0 10000.0
 
 DiscrByMHT false

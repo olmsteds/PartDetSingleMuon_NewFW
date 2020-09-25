@@ -24,8 +24,8 @@ doEfficiencyPlots true
 
 //----RECO CUTS----//
 
-EtaCut 2.5
-PtCut 10.0 9999.9
+EtaCut 2.1
+PtCut 35.0 9999.9
 
 DoDiscrByTightID 1
 DoDiscrBySoftID 0
@@ -50,7 +50,7 @@ MetMtCut 0. 100.
 //----RECO CUTS----//
 
 EtaCut 2.5
-PtCut 10.0 9999.9
+PtCut 10.0 35.
 
 DoDiscrByTightID 1
 DoDiscrBySoftID 0
