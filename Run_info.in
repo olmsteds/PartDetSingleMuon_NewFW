@@ -8,9 +8,9 @@ MCHistos mc2017_pileup_Dec2018reReco.root   # 2016: mc2016_pileup_Dec2018reReco.
 DataPUHistName pileup
 MCPUHistName pileup
 
-SpecialMCPUCalculation true
-/// SpecialMCPUHistos new_mc2017_pileupReweighting_NanoAODv6.root
-SpecialMCPUHistos new_mc2017_pileupReweighting_NanoAODv6_wanddylo_incl.root
+SpecialMCPUCalculation false
+SpecialMCPUHistos new_mc2017_pileupReweighting_NanoAODv6.root
+/// SpecialMCPUHistos new_mc2017_pileupReweighting_NanoAODv6_wanddylo_incl.root
 
 ApplyTauIDSF true
 TauIdSFsByDM false # Tau ID scale factors that are decay mode (DM) - dependent. If using di-tau triggers and tau-pt > 40 GeV, this are the recommended SFs.
@@ -36,7 +36,7 @@ ApplyHEMVeto2018 false
 
 /// ------ MC Gen-level cuts ------///
 /// --- HT filter --- ///
-DiscrByGenHT true
+DiscrByGenHT false
 LowerGenHtCut 0.0
 UpperGenHtCut 100.0
 
